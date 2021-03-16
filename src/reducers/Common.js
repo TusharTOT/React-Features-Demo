@@ -21,11 +21,6 @@ const common = (state = INIT_STATE, action) => {
             };
         }
 
-        // =====if api response dont have any data==========
-        // case NO_DATA: {
-        //     return { ...state, noData: action.payload, loading: false, };
-        // }
-
         case FETCH_ERROR: {
             return {
                 ...state,

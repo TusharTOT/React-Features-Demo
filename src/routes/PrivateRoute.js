@@ -75,7 +75,6 @@ const PrivateRoute = ({ match }) => {
                     component={NotFound}
                 />
             </Switch>
-
         </>
     );
 };
